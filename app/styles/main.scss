@@ -1,0 +1,215 @@
+* {
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+//Styling for TopNavbar
+.top-navbar {
+  align-items: center;
+  background-color: #cbbfa1;
+  box-shadow: 0 -1px 7px #000;
+  display: flex;
+  height: 80px;
+}
+
+.top-navbar__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.top-navbar__search_input {
+  display: inline-block;
+  width: 570px;
+
+  .search {
+    border: 0;
+    border-radius: 2px;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    padding-left: 10px;
+    vertical-align: middle;
+    width: 510px;
+
+    &::-webkit-input-placeholder {
+      font-size: 16px;
+    }
+  }
+
+  button {
+    background-color: #b8ae96;
+    border: 0;
+    border-radius: 2px;
+    height: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 40px;
+
+    &:hover {
+      background-color: #9e957f;
+    }
+
+    .fa-search {
+      color: #fff;
+      font-weight: bold;
+      line-height: 30px;
+    }
+  }
+}
+
+//Styling for NavbarProfile
+.navbar-profile {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-profile__userPoints {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.navbar-profile__userPic {
+  margin: 0 15px;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+//Styling for the Hompage
+.homepage-container {
+  max-width: 1440px;
+  padding: 0 40px;
+}
+
+.homepage-container__sections {
+  display: flex;
+}
+
+.homepage-location-header {
+  border-bottom: 1px solid #C6C4C4;
+  margin-top: 15px;
+  padding-bottom: 10px;
+
+  h2 {
+    font-weight: 200;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+}
+
+//Styling for left side bar on homepage
+.homepage-left-sidebar {
+  padding: 12px 12px 200px 0;
+  width: 15%;
+}
+
+.left-sidebar__title {
+  color: #cbbfa1;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.sidebar-children {
+  color: #555555;
+  font-size: 14px;
+
+  &:hover {
+    color: #999999;
+  }
+
+  p {
+    margin: 7px 0 0 5px;
+  }
+}
+
+.left-sidebar__foods {
+  margin-left: 5px;
+}
+
+.left-sidebar__locations {
+  margin-top: 35px;
+}
+
+//Styling for Homepages discover section
+.homepage-discover-container {
+  border-left: 1px solid #C6C4C4;
+  padding: 12px 0 200px 25px;
+  width: 85%;
+}
+
+.discover-heading {
+  color: #cbbfa1;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+//Styling for the top ten list on homepage
+.top-ten-container,
+.homepage-comments-container {
+  margin-top: 30px;
+}
+
+.top-ten-list-container {
+  display: flex;
+}
+
+.list-left,
+.list-right {
+  font-size: 16px;
+  font-weight: bold;
+  list-style-position: inside;
+  width: 400px;
+
+  li {
+    margin: 7px 0;
+    padding-left: 5px;
+
+    span {
+      font-weight: normal;
+    }
+  }
+}
+
+
+.homepage-user-comment {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  display: flex;
+  height: 150px;
+  margin-top: 10px;
+  max-width: 900px;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 18px;
+    font-weight: 700;
+
+    a {
+      color: #cbbfa1;
+      text-decoration: none;
+
+      &:hover {
+        color: #F59A4B;
+      }
+    }
+  }
+}
